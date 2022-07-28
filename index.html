@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meliorit</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+</head>
+
+<body>
+    <div id="modalbox-cart">
+        <div class="container">
+            <h1 class="modalbox-h1">В вашей корзине пусто!</h1>
+            <img class="none-img" src="img/none.png" alt="none">
+            <button class="cart-btn-close"><img src="img/close.svg" alt="ico"></button>
+        </div>
+    </div>
+    <div id="bg_layer"></div>
+    <header>
+        <section class="info__block wow bounceInUp">
+            <div class="navbar">
+                <div class="container">
+                    <div class="nav__content">
+                        <div class="nav__brand wow backInRight">
+                            <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+                            <button class="btn"><img src="./img/open.svg" alt="open"></button>
+                        </div>
+                        <div class="nav__links wow backInLeft">
+                            <nav class="menu">
+                                <ul>
+                                    <li><a href="#">Межсетевые экраны</a></li>
+                                    <li><a href="#">Консалтинг и аудит</a></li>
+                                    <li><a href="#">Блог</a></li>
+                                    <li><a href="#">О компании</a></li>
+                                    <button class="btn"><img src="./img/close.svg" alt="open"></button>
+                                </ul>
+                            </nav>
+                            <div class="nav__elements">
+                                <button><img src="img/favorit.svg" alt="ico"></button>
+                                <button class="cart-btn"><img src="img/cart.svg" alt="ico"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="info__company  wow backInRight">
+                <div class="container info__content">
+                    <div class="info__intro">
+                        <h1>
+                            Межсетевые экраны <span>нового</span> поколения
+                        </h1>
+                        <p>
+                            Сократите затраты на обеспечение информационной безопасности и окупите вложения уже через шесть месяцев
+                        </p>
+                        <button class="btn-info">Читать статью</button>
+                    </div>
+                    <div class="info__img">
+                        <img src="img/info.png" alt="info-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="help wow bounceInUp">
+            <div class="container">
+                <div class="help__content">
+                    <div class="help__img">
+                        <img src="img/info.png" alt="help-img">
+                    </div>
+                    <div class="help__intro">
+                        <h1>Помощь в выборе<br> модели</h1>
+                        <p>Сколько компьютеров <br>в вашей локальной сети?</p>
+                        <form action="#">
+                            <input type="number">
+                            <button class="btn-info">Продолжить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="models wow bounceInUp">
+            <div class="container">
+                <div class="models__intro">
+                    <h1>Популярные модели</h1>
+                    <a href="#">Какую модель выбрать?</a>
+                </div>
+                <div class="models__slider">
+                    <div class="model__slide">
+                        <h1>PA-220</h1>
+                        <p>Подходит для небольших организаций, филиалов и торговых точек</p>
+                        <img src="img/firewool/firewall1.png" alt="PA-220">
+                        <div class="info__product">
+                            <div class="product__item">
+                                <p>Пропускная<br> способность
+                                </p>
+                                <h5>500 Mbps</h5>
+                            </div>
+                            <div class="product__item">
+                                <p>
+                                    Максимальное<br> кол-во сессий
+                                </p>
+                                <h5>64 000</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="model__slide">
+                        <h1>PA-800</h1>
+                        <p>Предназначен для офисов филиалов и предприятий среднего бизнеса</p>
+                        <img src="img/firewool/firewall1.png" alt="PA-220">
+                        <div class="info__product">
+                            <div class="product__item">
+                                <p>Пропускная<br> способность
+                                </p>
+                                <h5>1 900 Mbps</h5>
+                            </div>
+                            <div class="product__item">
+                                <p>
+                                    Максимальное<br> кол-во сессий
+                                </p>
+                                <h5>192 000</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="model__slide">
+                        <h1>PA-3200 </h1>
+                        <p>Предназначен для офисов филиалов и предприятий среднего бизнеса</p>
+                        <img src="img/firewool/firewall3.png" alt="PA-220">
+                        <div class="info__product">
+                            <div class="product__item">
+                                <p>Пропускная<br> способность
+                                </p>
+                                <h5>8,8 Gbps</h5>
+                            </div>
+                            <div class="product__item">
+                                <p>
+                                    Максимальное<br> кол-во сессий
+                                </p>
+                                <h5>3 000 000</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="model__slide">
+                        <h1>PA-400</h1>
+                        <p>Для организаций, которые хотят обеспечить наилучший уровень кибербезопасности</p>
+                        <img src="img/firewool/firewall4.png" alt="PA-220">
+                        <div class="info__product">
+                            <div class="product__item">
+                                <p>Пропускная<br> способность
+                                </p>
+                                <h5>5,2/4,7 Gbps</h5>
+                            </div>
+                            <div class="product__item">
+                                <p>
+                                    Максимальное<br> кол-во сессий
+                                </p>
+                                <h5>400 000</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="model__slide">
+                        <h1>PA-220</h1>
+                        <p>Подходит для небольших организаций, филиалов и торговых точек</p>
+                        <img src="img/firewool/firewall1.png" alt="PA-220">
+                        <div class="info__product">
+                            <div class="product__item">
+                                <p>Пропускная<br> способность
+                                </p>
+                                <h5>500 Mbps</h5>
+                            </div>
+                            <div class="product__item">
+                                <p>
+                                    Максимальное<br> кол-во сессий
+                                </p>
+                                <h5>64 000</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="model__slide">
+                        <h1>PA-800</h1>
+                        <p>Предназначен для офисов филиалов и предприятий среднего бизнеса</p>
+                        <img src="img/firewool/firewall1.png" alt="PA-220">
+                        <div class="info__product">
+                            <div class="product__item">
+                                <p>Пропускная<br> способность
+                                </p>
+                                <h5>1 900 Mbps</h5>
+                            </div>
+                            <div class="product__item">
+                                <p>
+                                    Максимальное<br> кол-во сессий
+                                </p>
+                                <h5>192 000</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="model__slide">
+                        <h1>PA-3200 </h1>
+                        <p>Предназначен для офисов филиалов и предприятий среднего бизнеса</p>
+                        <img src="img/firewool/firewall3.png" alt="PA-220">
+                        <div class="info__product">
+                            <div class="product__item">
+                                <p>Пропускная<br> способность
+                                </p>
+                                <h5>8,8 Gbps</h5>
+                            </div>
+                            <div class="product__item">
+                                <p>
+                                    Максимальное<br> кол-во сессий
+                                </p>
+                                <h5>3 000 000</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="model__slide">
+                        <h1>PA-400</h1>
+                        <p>Для организаций, которые хотят обеспечить наилучший уровень кибербезопасности</p>
+                        <img src="img/firewool/firewall4.png" alt="PA-220">
+                        <div class="info__product">
+                            <div class="product__item">
+                                <p>Пропускная<br> способность
+                                </p>
+                                <h5>5,2/4,7 Gbps</h5>
+                            </div>
+                            <div class="product__item">
+                                <p>
+                                    Максимальное<br> кол-во сессий
+                                </p>
+                                <h5>400 000</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="model__slide">
+                        <h1>PA-220</h1>
+                        <p>Подходит для небольших организаций, филиалов и торговых точек</p>
+                        <img src="img/firewool/firewall1.png" alt="PA-220">
+                        <div class="info__product">
+                            <div class="product__item">
+                                <p>Пропускная<br> способность
+                                </p>
+                                <h5>500 Mbps</h5>
+                            </div>
+                            <div class="product__item">
+                                <p>
+                                    Максимальное<br> кол-во сессий
+                                </p>
+                                <h5>64 000</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="model__slide">
+                        <h1>PA-800</h1>
+                        <p>Предназначен для офисов филиалов и предприятий среднего бизнеса</p>
+                        <img src="img/firewool/firewall1.png" alt="PA-220">
+                        <div class="info__product">
+                            <div class="product__item">
+                                <p>Пропускная<br> способность
+                                </p>
+                                <h5>1 900 Mbps</h5>
+                            </div>
+                            <div class="product__item">
+                                <p>
+                                    Максимальное<br> кол-во сессий
+                                </p>
+                                <h5>192 000</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="model__slide">
+                        <h1>PA-3200 </h1>
+                        <p>Предназначен для офисов филиалов и предприятий среднего бизнеса</p>
+                        <img src="img/firewool/firewall3.png" alt="PA-220">
+                        <div class="info__product">
+                            <div class="product__item">
+                                <p>Пропускная<br> способность
+                                </p>
+                                <h5>8,8 Gbps</h5>
+                            </div>
+                            <div class="product__item">
+                                <p>
+                                    Максимальное<br> кол-во сессий
+                                </p>
+                                <h5>3 000 000</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="model__slide">
+                        <h1>PA-400</h1>
+                        <p>Для организаций, которые хотят обеспечить наилучший уровень кибербезопасности</p>
+                        <img src="img/firewool/firewall4.png" alt="PA-220">
+                        <div class="info__product">
+                            <div class="product__item">
+                                <p>Пропускная<br> способность
+                                </p>
+                                <h5>5,2/4,7 Gbps</h5>
+                            </div>
+                            <div class="product__item">
+                                <p>
+                                    Максимальное<br> кол-во сессий
+                                </p>
+                                <h5>400 000</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="question wow bounceInUp">
+            <div class="container">
+                <div class="question__content">
+                    <div class="question__intro">
+                        <h1>Часто задаваемые <br> вопросы
+                        </h1>
+                    </div>
+                    <div class="questions__accordeon">
+                        <div class="question__accodeon">
+                            <div class="question__head">
+                                <h3>Как работает межсетевой экран?</h3>
+                                <button class="arrow"><img src="img/toggle.svg" alt="toggle"></button>
+                            </div>
+                            <div class="question__body">
+                                <p>
+                                    Сеть нуждается в защите от внешних угроз. Хищение данных, несанкционированный доступ и повреждения могут сказаться на работе сети и принести серьезные убытки. Используйте специальные программы и устройства, чтобы обезопасить себя от разрушительных воздействий.
+                                    В этом обзоре мы расскажем об межсетевом экране и рассмотрим его основные типы.
+                                    <a href="#">Подробнее...</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="question__accodeon">
+                            <div class="question__head">
+                                <h3>Сколько стоит установка межсетевого экрана?</h3>
+                                <button class="arrow"><img src="img/toggle.svg" alt="toggle"></button>
+                            </div>
+                            <div class="question__body">
+                                <p>
+                                    Сеть нуждается в защите от внешних угроз. Хищение данных, несанкционированный доступ и повреждения могут сказаться на работе сети и принести серьезные убытки. Используйте специальные программы и устройства, чтобы обезопасить себя от разрушительных воздействий.
+                                    В этом обзоре мы расскажем об межсетевом экране и рассмотрим его основные типы.
+                                    <a href="#">Подробнее...</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="question__accodeon">
+                            <div class="question__head">
+                                <h3>Какие бывают межсетевые экраны?</h3>
+                                <button class="arrow"><img src="img/toggle.svg" alt="toggle"></button>
+                            </div>
+                            <div class="question__body">
+                                <p>
+                                    Сеть нуждается в защите от внешних угроз. Хищение данных, несанкционированный доступ и повреждения могут сказаться на работе сети и принести серьезные убытки. Используйте специальные программы и устройства, чтобы обезопасить себя от разрушительных воздействий.
+                                    В этом обзоре мы расскажем об межсетевом экране и рассмотрим его основные типы.
+                                    <a href="#">Подробнее...</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="question__accodeon">
+                            <div class="question__head">
+                                <h3>Для чего нужен межсетевой экран?</h3>
+                                <button class="arrow"><img src="img/toggle.svg" alt="toggle"></button>
+                            </div>
+                            <div class="question__body">
+                                <p>
+                                    Сеть нуждается в защите от внешних угроз. Хищение данных, несанкционированный доступ и повреждения могут сказаться на работе сети и принести серьезные убытки. Используйте специальные программы и устройства, чтобы обезопасить себя от разрушительных воздействий.
+                                    В этом обзоре мы расскажем об межсетевом экране и рассмотрим его основные типы.
+                                    <a href="#">Подробнее...</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="question__accodeon">
+                            <div class="question__head">
+                                <h3>Как выбрать межсетевой экран?</h3>
+                                <button class="arrow"><img src="img/toggle.svg" alt="toggle"></button>
+                            </div>
+                            <div class="question__body">
+                                <p>
+                                    Сеть нуждается в защите от внешних угроз. Хищение данных, несанкционированный доступ и повреждения могут сказаться на работе сети и принести серьезные убытки. Используйте специальные программы и устройства, чтобы обезопасить себя от разрушительных воздействий.
+                                    В этом обзоре мы расскажем об межсетевом экране и рассмотрим его основные типы.
+                                    <a href="#">Подробнее...</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="news wow bounceInUp">
+            <div class="container">
+                <div class="news__content">
+                    <div class="news__intro">
+                        <h1>Новости</h1>
+                    </div>
+                    <div class="news__wrapper">
+                        <div class="news__card">
+                            <a href="#">Контейнерные межсетевые экраны Palo Alto серии CN</a>
+                        </div>
+                        <div class="news__card">
+                            <a href="#">Защита от узвимости CVE-2021-34527, публично известной как «Print Nightmare»</a>
+                        </div>
+                        <div class="news__card">
+                            <a href="#">Новая линейка межсетевых экранов Palo Alto PA-400 Series</a>
+                        </div>
+                        <div class="news__card">
+                            <a href="#">Что такое Next Generation Firewall?</a>
+                        </div>
+                        <div class="news__card">
+                            <a href="#">Контейнерные межсетевые экраны Palo Alto серии CN</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="wow bounceInUp">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__block">
+                    <a href="#">Palo Alto Networks</a>
+                    <a href="#">Подписки Palo Alto Networks</a>
+                    <a href="#">Prisma</a>
+                    <a href="#">Cortex</a>
+                </div>
+                <div class="footer__block">
+                    <a href="#">Блог</a>
+                    <a href="#">Статьи про Palo Alto Networks</a>
+                    <a href="#">Политика Конфиденциальности</a>
+                </div>
+                <div class="footer__block">
+                    <a href="#"><img src="img/ico/map.svg" alt="ico">Адрес: 115201, Россия, Москва, Котляковская улица, 6, стр. 8</a>
+                    <a href="#"><img src="img/ico/phone-call.svg" alt="ico">+7 (499) 444-81-80</a>
+                    <a href="#"><img src="img/ico/mail.svg" alt="ico">E-mail: hello@meliorit.ru</a>
+                    <a href="#"><img src="img/ico/watch.svg" alt="ico">Время работы: 9:00-18:30</a>
+                </div>
+            </div>
+            <hr>
+            <a class="author" href="https://t.me/iskandar0830">Developed by Iskandar - 2022</a>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/wow js/wow.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
